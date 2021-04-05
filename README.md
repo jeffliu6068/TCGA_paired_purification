@@ -5,7 +5,7 @@ The tcga_paired_purification packages allows researchers to input common paired 
 
 ### Download Package
 
-Download the DEA package by:
+Download the tcga_paired_purification package by:
 ```
 pip install git+https://github.com/jeffliu6068/tcga_paired_purification.git
 ```
