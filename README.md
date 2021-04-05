@@ -40,9 +40,11 @@ import tcga_paired_purification as tpp
 
 purified_df = tpp.tcga_paired_purification(input_data_cancer, input_data_normal, purity_df)
 ```
-input_data_cancer is the input dataframe with genes (row) x samples (columns)
-input_data_normal is a dataframe with the information of the means and standard deviation of the paired normal distribution of each gene and with columns 'mean' and 'std' 
-purity_df is a dataframe with samples (rows) x purity (columns)
+1. input_data_cancer is the input dataframe with genes (row) x samples (columns)
+
+2. input_data_normal is a dataframe with the information of the means and standard deviation of the paired normal distribution of each gene and with columns 'mean' and 'std' 
+
+3. purity_df is a dataframe with samples (rows) x purity (columns)
 
 ## Authors
 
